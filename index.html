@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile - Wecode - Teste</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="mySript.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="barra-status">
+                <p class="hora">9:41</p>
+                <ul class="header1">
+                    <li><img src="PNG/sensores.png" alt="" class="centro"></li>
+                    <li><img src="PNG/camera.png" alt="" class="camera"></li>
+                    <li><img src="PNG/Mobile Signal.png" alt="ícone de sinal de rede da operadora" class="icones"></li>
+                    <li><img src="PNG/Wifi.png" alt="ícone de sinal de wifi" class="icones"></li>
+                    <li><img src="PNG/bateria.png" alt="ícone da bateria" class="icones"></li>
+                </ul>
+            </div>
+            <nav class="header2">
+                <div class="menu">
+                    <input type="checkbox" class="menu-faketrigger"/>
+                    <div class="menu-lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="header-icones">
+                        <li class="logo-header"><img src="PNG/Wecode2.png" alt="logo Wecode"></li>
+                        <li class="utilizador"><img src="PNG/utilizador2.png" alt="ícone de usuário"></li>
+                        <li class="sacola"><img src="PNG/sacola2.png" alt="ícone sacola de compras"><p class="contador">0</p></li>
+                    </ul>
+                    <div class="header-menu">
+                        <img src="PNG/Wecode2.png" alt="logo Wecode"class="logo-menu"></li>
+                    </div>
+                    <div class="imagem-menu">
+                        <p class="cafe-gamer">Café Gamer</p>
+                        <p class="legenda-foto">Perfeito para aquela madrugada de lançamento de jogo novo</p>
+                    </div>
+                        <ul class="menu-interno">
+                            <li><a class="underline" href="#">Cafés especiais</a></li>
+                            <li><a class="underline1" href="#">Café Cyborg</a></li>
+                            <li><a class="underline1" href="#">Café Star Wars</a></li>
+                            <li><a class="underline1" href="#">Café Dark Elf</a></li>
+                            <li><a class="underline1" href="#">Ver todos</a></li>
+                        </ul>
+                        <ul class="menu-interno2">
+                            <li><a class="underline" href="#">Cafés tradicionais</a></li>
+                            <li><a class="underline" href="#">Kits</a></li>
+                            <li><a class="underline2" href="#">Wecoffee Club+</a></li>
+                        </ul>
+                </div>
+            </nav>
+        </header>
+    <div class="home">
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <div class="slide s1">
+                    <img src="Imagens/image1.png" alt="foto do copo do café dev com 500ml" class="image">
+                    <div class="promo">
+                        <p class="promo1">.[Café Dev]; 500ml</p>
+                        <p class="promo2">com 10% OFF</p>
+                    </div>
+                </div>
+                <div class="slide s2">
+                    <img src="Imagens/image2.png" alt="foto do copo do café designer com 500ml" class="image">
+                    <div class="promocao">
+                        <p class="promocao1">LANÇAMENTO!</p>
+                        <p class="promocao2">Café Designer - 500ml</p>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                    
+                </div>
+            </div>
+            <div class="veja">
+                <a class="veja1" href="#"><p class="vejamais">Veja mais</p></a>
+            </div>
+        </div>
+        <div class="promocoes">
+            <div class="carrossel1">
+                <a class="picture1" href="#"><img src="Imagens/image3.png" alt="duas xícaras de café com desenho de coração"></a>
+                <p class="legenda-promocao">Especiais</p>
+            </div>
+            <div class="carrossel1">
+                <a class="picture1" href="#"><img src="Imagens/image4.png" alt="xícara com café saindo fumaça sobre grãos de café e alguns grãos estão caindo no fundo da imagem"></a>
+                <p class="legenda-promocao">Tradicionais</p>
+            </div>
+            <div class="carrossel1">
+                <a class="picture1" href="#"><img src="Imagens/image5.png" alt="foto com uma cafeteira italiana, uma xícara de café na cor preta com café dentro e outros utensilios"></a>
+                <p class="legenda-promocao">Kits</p>
+            </div>
+            <div class="carrossel1">
+                <a class="picture1" href="#"><img src="Imagens/image6.png" alt="foto de duas pessoas segurando xícaras de café"></a>
+                <p class="legenda-promocao2">Wecoffee Club+</p>
+            </div>
+        </div>
+        <div class="produtos">
+            <div class="title1">
+                <p class="titulo1">Os favoritos da casa</p>
+            </div>
+            <div class="subtitle1">
+                <p class="subtitulo1">Conhaça os cafés queridinhos da galera!</p>
+            </div>
+            <div class="cafedev">
+                <a class="produto1" href="#"><img src="Imagens/image1.png" alt="foto do copo do café dev com 500ml" class="img-produto"></a>
+                <button onclick="aumentar()"><img src="PNG/adicionar-compra.png" alt="ícone de sacola de compra" class="somar"></button>
+                <a href="#" class="favorito"><img src="PNG/favorito.png" alt="ícone de favorito, estrela" class="icon-favorite"></a>
+            </div>
+            <div class="description1">
+                <p class="descricao1">Café Dev - 500ml</p>
+            </div>
+            <div class="subdescription1">
+                <p class="subdescricao1">Rapadura, Floral, papaia, cítrico</p>
+            </div>
+            <div class="value1">
+                <p class="valor1">R$ 15.90</p>
+            </div>
+            <div class="cafedesigner">
+                <a class="produto1" href="#"><img src="Imagens/image2.png" alt="foto do copo do café designer com 500ml" class="img-produto"></a>
+            </div>
+            <div class="description2">
+                <p class="descricao1">Café Designer - 500ml</p>
+            </div>
+            <div class="subdescription2">
+                <p class="subdescricao1">Doce de leite, chocolate e nozes</p>
+            </div>
+            <div class="value2">
+                <p class="valor1">R$ 15.90</p>
+            </div>
+        </div>
+        <div class="blogs">
+            <div class="title2">
+                <p class="titulo2">Conheça mais</p>
+            </div>
+            <div class="subtitle2">
+                <p class="subtitulo2">Fique por dentro de tudo que acontece no universo cafeeiro</p>
+            </div>
+            <div class="carrossel2">
+                <img src="Imagens/image7.png" alt="" class="blog">
+            </div>
+            <div class="description3">
+                <p class="descricao3">Café corta o efeito da creatina? Entenda como tomar!</p>
+            </div>
+            <div class="subdescription3">
+                <p class="subdescricao3">Uma dúvida recorrente das pessoas que treinam e/ou fazem musculação é: "Será que o café corta o efeito da...</p>
+            </div>
+            <div class="value3">
+                <p class="valor3">Saiba mais!</p>
+            </div>
+            <div class="carrossel2">
+                <img src="Imagens/image8.png" alt="" class="blog">
+            </div>
+            <div class="description4">
+                <p class="descricao3">Cardápio de cafeteria: Saiba como montar e o que oferecer!</p>
+            </div>
+            <div class="subdescription4">
+                <p class="subdescricao3">Abrir uma cafeteria é uma ótima oportunidade para aproveitar o alto potencial de lucratividade desse...</p>
+            </div>
+            <div class="value4">
+                <p class="valor3">Saiba mais!</p>
+            </div>
+            <div class="carrossel2">
+                <img src="Imagens/image9.png" alt="" class="blog">
+            </div>
+            <div class="carrossel2">
+                <img src="Imagens/image10.png" alt="" class="blog">
+            </div>
+        </div>
+        <footer>
+            <div class="logo-footer">
+                <img src="PNG/Wecode.png" alt="logo Wecode" class="footer-logo">
+            </div>
+            <div class="directs">
+                <p class="direitos">©2023 Wecode Tecnologia para e-commerce ltda. Todos os direitos reservados.</p>
+            </div>
+            <div class="log-in">
+                <p class="conecte-se">Conecte-se conosco</p>
+            </div>
+            <div class="footer-icon">
+                <img src="PNG/instagram.png" alt="" class="icon">
+                <img src="PNG/facebook.png" alt="" class="icon">
+                <img src="PNG/pinterest.png" alt="" class="icon">
+                <img src="PNG/twitter.png" alt="" class="icon">
+                <img src="PNG/tik-tok.png" alt="" class="icon">
+            </div>
+            <div class="sobrefooter">
+                <ul>
+                    <li class="footertitle1">Sobre a empresa</li>
+                    <li class="footerlegend1">Quem somos</li>
+                    <li class="footerlegend1">Fale conosco</li>
+                    <li class="footerlegend1">Produção Nacional de Café</li>
+                </ul>
+            </div>
+            <div class="emailfooter">
+                <ul>
+                    <li class="footertitle2">E-mail</li>
+                    <li class="footerlegend2">ola@wecode.digital</li>
+                </ul>
+            </div>
+            <div class="telfooter">
+                <ul>
+                    <li class="footertitle3">Telefone</li>
+                    <li class="footerlegend3">+55 (54) 3028-9452</li>
+                </ul>
+            </div>
+            <div class="endfooter">
+                <ul>
+                    <li class="footertitle4">Endereço</li>
+                    <li class="footerlegend4">Rua Independência, 2432 - sala 418 Caxias do Sul, RS - 95.082-380</li>
+                </ul>
+            </div>
+            <div class="polfooter">
+                <ul>
+                    <li class="footertitle5">Políticas</li>
+                    <li class="footerlegend5">Política de Privacidade</li>
+                    <li class="footerlegend5">Termos de Uso</li>
+                    <li class="footerlegend5">Política de Entrega</li>
+                    <li class="footerlegend5">Política de Cupom e Descontos</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    </main>
+</body>
+</html>
